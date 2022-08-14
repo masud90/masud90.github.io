@@ -1,7 +1,9 @@
 # Masud Rahman
-Research Economist | Data Analytics | Machine Learning Portfolio
+Economic Research | Data Analytics | Machine Learning 
 
 [![LinkedIn][LinkedInLogo]][LinkedInURL] [![Twitter][TwitterLogo]][TwitterURL] [![GitHub][GithubLogo]][GithubURL] 
+
+---
 
 ## Featured Projects
 
