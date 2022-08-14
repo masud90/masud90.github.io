@@ -1,4 +1,4 @@
-# :bearded_person: Masud Rahman
+# 🚀 Masud Rahman
 Economic Research | Data Analytics | Machine Learning 
 
 [![LinkedIn][LinkedInLogo]][LinkedInURL] [![Twitter][TwitterLogo]][TwitterURL] [![GitHub][GithubLogo]][GithubURL] 
@@ -7,15 +7,15 @@ Economic Research | Data Analytics | Machine Learning
 
 ## Sections
 
-1. [Featured Projects](#chart_with_upwards_trend-featured-projects)
-2. [Publications](#books-publications)
-3. [Blog Posts](#newspaper-blog-posts)
-4. [Skills and Tech Stack](#weight_lifting-skills-and-tech-stack)
-5. [Contact Me](#email-contact-me)
+1. [Featured Projects](#-featured-projects)
+2. [Publications](#-publications)
+3. [Blog Posts](#-blog-posts)
+4. [Skills and Tech Stack](#-skills-and-tech-stack)
+5. [Contact Me](#-contact-me)
 
 ---
 
-## :chart_with_upwards_trend: Featured Projects
+## 📈 Featured Projects
 
 ### [Russia Military Impact during Ukraine Crisis 2022](https://github.com/masud90/masud90.github.io/blob/main/assets/images/russiaimpact.png)
 
@@ -45,7 +45,7 @@ Using this data, we create a random forest model, that gives us predictions with
 
 ---
 
-## :books: Publications
+## 📚 Publications
 
 ### Predicting Likelihood of Depression Using Socioeconomic Survey Data in Refugee Camps and Their Hosts
 [Pre-print draft forthcoming]
@@ -58,7 +58,7 @@ A UNHCR-Yale survey of refugees finds the humanitarian refugee volunteer program
 
 ---
 
-## :newspaper: Blog Posts
+## 📰 Blog Posts
 
 ### [Compounding misfortunes – refugee women and girls lose even more ground during the COVID-19 pandemic](https://www.unhcr.org/blogs/compounding-misfortunes-refugee-women-and-girls-lose-even-more-ground-during-the-covid-19-pandemic/)
 
@@ -80,7 +80,7 @@ Rohingya refugees and Bangladeshi adolescents report being impoverished due to t
 
 ---
 
-## :weight_lifting: Skills and Tech Stack
+## 🚴 Skills and Tech Stack
 
 **My data science toolkit:**
 1. Sample design: SAS, STATA, Python, R
@@ -93,9 +93,9 @@ Rohingya refugees and Bangladeshi adolescents report being impoverished due to t
 
 ---
 
-## :email: Contact Me
+## 📭 Contact Me
 
-:heart: Reach me on [LinkedIn messages](https://linkedin.com/in/Masud90) or DM me on [Twitter](https://twitter.com/masudtweets).
+❤️ Reach me on [LinkedIn messages](https://linkedin.com/in/Masud90) or DM me on [Twitter](https://twitter.com/masudtweets).
 
 ---
 [LinkedInLogo]: ./assets/images/linkedin.png
