@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+# Masud Rahman
+Research Economist | Data Analytics | Machine Learning Portfolio
 
-You can use the [editor on GitHub](https://github.com/masud90/masud90.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+[![Twitter][1.2]][1] [![Github][2.2]][2]
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[1.2]: http://i.imgur.com/wWzX9uB.png (twitter icon without padding)
+[2.2]: http://i.imgur.com/9I6NRUm.png (github icon without padding)
 
-### Markdown
+[1]: http://www.twitter.com/masudtweets
+[2]: http://www.github.com/masud90
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Featured Projects
 
-```markdown
-Syntax highlighted code block
+### 1. Russia Military Impact during Ukraine Crisis 2022
+<!-- ![]() -->
+This Jupyter notebook automatically collects, cleans, and visualizes the impact Ukraine Crisis has had on Russia's military personnel and equipment. This notebook updates daily on Kaggle. View the kaggle notebook [here](https://www.kaggle.com/code/masudrahman19/visualizing-russian-defense-loss-in-ukraine-2022), or the github notebook [here](https://github.com/masud90/Russia-Military-Impact-during-Ukraine-Crisis-2022).
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/masud90/masud90.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### 2. Predicting Gold Prices Using 15 Year Market Data
