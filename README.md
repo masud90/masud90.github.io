@@ -1,4 +1,4 @@
-# Masud Rahman
+# :bearded_person: Masud Rahman
 Economic Research | Data Analytics | Machine Learning 
 
 [![LinkedIn][LinkedInLogo]][LinkedInURL] [![Twitter][TwitterLogo]][TwitterURL] [![GitHub][GithubLogo]][GithubURL] 
@@ -7,13 +7,15 @@ Economic Research | Data Analytics | Machine Learning
 
 ## Sections
 
-1. [Featured Projects](#featured-projects)
-2. [Blog Posts](#blog-posts)
-3. [Contact Me](#contact-me)
+1. [Featured Projects](#chart_with_upwards_trend-featured-projects)
+2. [Publications](#books-publications)
+3. [Blog Posts](#newspaper-blog-posts)
+4. [Skills and Tech Stack](#weight_lifting-skills-and-tech-stack)
+5. [Contact Me](#email-contact-me)
 
 ---
 
-## Featured Projects
+## :chart_with_upwards_trend: Featured Projects
 
 ### [Russia Military Impact during Ukraine Crisis 2022](https://github.com/masud90/masud90.github.io/blob/main/assets/images/russiaimpact.png)
 
@@ -41,12 +43,22 @@ This dataset contains 6 variables as follows:
 
 Using this data, we create a random forest model, that gives us predictions with an R-squared error value of 0.993 which is considered very robust.
 
-### Machine Learning in Humanitarian Context: Predicting Likelihood of Depression Using Socioeconomic Survey Data in Refugee Camps and Their Hosts
+---
+
+## :books: Publications
+
+### Predicting Likelihood of Depression Using Socioeconomic Survey Data in Refugee Camps and Their Hosts
 [Pre-print draft forthcoming]
+
+### [The Impact of Financial Assistance through Volunteer Programmes in Cox's Bazar Refugee Camps](https://data.unhcr.org/en/documents/details/93863)
+
+*June 26, 2022*
+
+A UNHCR-Yale survey of refugees finds the humanitarian refugee volunteer programmes and cash-for-work are the main sources of generating income inside camps. Average household income closely follows the refugee volunteer guidelines set by the humanitarian coordination mechanism and agreed by the Government of Bangladesh, and much below the minimum expenditure basket. Households with access to cash-for-work or refugee volunteer opportunities are likely to earn more than the rest of the population. Over 1 in 4 households monetize some form of assistance to meet their family needs.
 
 ---
 
-## Blog Posts
+## :newspaper: Blog Posts
 
 ### [Compounding misfortunes – refugee women and girls lose even more ground during the COVID-19 pandemic](https://www.unhcr.org/blogs/compounding-misfortunes-refugee-women-and-girls-lose-even-more-ground-during-the-covid-19-pandemic/)
 
@@ -68,10 +80,24 @@ Rohingya refugees and Bangladeshi adolescents report being impoverished due to t
 
 ---
 
-## Contact Me
+## :weight_lifting: Skills and Tech Stack
 
-Reach out on [LinkedIn messages](https://linkedin.com/in/Masud90) or DM me on [Twitter](https://twitter.com/masudtweets).
+**My data science toolkit:**
+1. Sample design: SAS, STATA, Python, R
+2. Data collection: KoBo Toolbox, SurveyCTO
+3. Data preparation, manipulation, anonymization: R, Python, SAS, SDCMicro, SQL, STATA
+4. Data analysis: R, Python, SAS, STATA
+5. Predictive modeling: STATA, Python (generally scikit-learn, SciPy, PyCaret)
+6. Data visualization: PowerBI, SAS, STATA, Tableau, iPython, R
+7. Project control: Git (and GitHub), Microsoft Project
 
+---
+
+## :email: Contact Me
+
+:heart: Reach me on [LinkedIn messages](https://linkedin.com/in/Masud90) or DM me on [Twitter](https://twitter.com/masudtweets).
+
+---
 [LinkedInLogo]: ./assets/images/linkedin.png
 [TwitterLogo]: ./assets/images/twitter.png
 [GithubLogo]: ./assets/images/github.png
