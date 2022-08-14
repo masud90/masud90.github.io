@@ -1,8 +1,9 @@
 # 🚀 Masud Rahman
 Economic Research | Data Analytics | Machine Learning 
 
-[![LinkedIn][LinkedInLogo]][LinkedInURL] [![Twitter][TwitterLogo]][TwitterURL] [![GitHub][GithubLogo]][GithubURL] 
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/masud90) [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/)   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/Masud90) [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](twitter.com/masudtweets)
 
+[![Top Languages on GitHub](https://github-readme-stats.vercel.app/api/top-langs/?username=masud90&layout=compact)](https://github.com/masud90/github-readme-stats)
 ---
 
 ## Sections
@@ -50,7 +51,7 @@ Using this data, we create a random forest model, that gives us predictions with
 ### Predicting Likelihood of Depression Using Socioeconomic Survey Data in Refugee Camps and Their Hosts
 [Pre-print draft forthcoming]
 
-### [The Impact of Financial Assistance through Volunteer Programmes in Cox's Bazar Refugee Camps](https://data.unhcr.org/en/documents/details/93863)
+### [The Impact of Financial Assistance through Volunteer Programmes in Cox's Bazar Refugee Camps](https://data.unhcr.org/en/documents/details/93863) [external link]
 
 *June 26, 2022*
 
@@ -96,12 +97,4 @@ Rohingya refugees and Bangladeshi adolescents report being impoverished due to t
 ## 📭 Contact Me
 
 ❤️ Reach me on [LinkedIn messages](https://linkedin.com/in/Masud90) or DM me on [Twitter](https://twitter.com/masudtweets).
-
----
-[LinkedInLogo]: ./assets/images/linkedin.png
-[TwitterLogo]: ./assets/images/twitter.png
-[GithubLogo]: ./assets/images/github.png
-
-[LinkedInURL]: https://linkedin.com/in/Masud90
-[TwitterURL]: https://twitter.com/masudtweets
-[GithubURL]: https://github.com/masud90
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/masudtweets.svg?style=social&label=Follow%20%40masudtweets)](https://twitter.com/masudtweets)
