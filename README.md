@@ -3,14 +3,14 @@ Economic Research | Data Analytics | Machine Learning
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/masud90)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/Masud90)
-![Twitter Follow](https://img.shields.io/twitter/follow/masudtweets?style=social)
+[![Twitter Follow](https://img.shields.io/twitter/follow/masudtweets?style=social&logo=twitter)](https://twitter.com/masudtweets)
 
-[![Top Languages on GitHub](https://github-readme-stats.vercel.app/api/top-langs/?username=masud90&layout=compact)](https://github.com/masud90/github-readme-stats)
+<!--- [![Top Languages on GitHub](https://github-readme-stats.vercel.app/api/top-langs/?username=masud90&layout=compact)](https://github.com/masud90/github-readme-stats) -->
 
 
 ---
 
-## Sections
+## 👇 Sections
 
 1. [Skills and Tech Stack](#-skills-and-tech-stack)
 2. [Featured Projects](#-featured-projects)
@@ -20,7 +20,7 @@ Economic Research | Data Analytics | Machine Learning
 
 ---
 
-## 🚴 Skills and Tech Stack
+## 👷 Skills and Tech Stack
 
 1. **Research design:** experienced in designing reproducible research, project management, data cleaning, analysis, visualization, and drafting reports. See examples in [publications](#-publications).
 2. **Big data:** experienced in end-to-end big data pipepline design and implementation, from storing streaming data called using API in cloud servers to producing predictive insights for end user in a flask environment. *Examples coming soon.*
