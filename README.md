@@ -102,5 +102,4 @@ Rohingya refugees and Bangladeshi adolescents report being impoverished due to t
 
 ❤️ Message me on [LinkedIn](https://linkedin.com/in/Masud90) or DM me on [Twitter](https://twitter.com/masudtweets).
 
-![Twitter Follow](https://img.shields.io/twitter/follow/masudtweets?style=social)
-
+[![Twitter Follow](https://img.shields.io/twitter/follow/masudtweets?style=social&logo=twitter)](https://twitter.com/masudtweets)
