@@ -1,18 +1,38 @@
 # 🚀 Masud Rahman
 Economic Research | Data Analytics | Machine Learning 
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/masud90) [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/)   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/Masud90) [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](twitter.com/masudtweets)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/masud90)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/Masud90)
+![Twitter Follow](https://img.shields.io/twitter/follow/masudtweets?style=social)
 
 [![Top Languages on GitHub](https://github-readme-stats.vercel.app/api/top-langs/?username=masud90&layout=compact)](https://github.com/masud90/github-readme-stats)
+
+
 ---
 
 ## Sections
 
-1. [Featured Projects](#-featured-projects)
-2. [Publications](#-publications)
-3. [Blog Posts](#-blog-posts)
-4. [Skills and Tech Stack](#-skills-and-tech-stack)
+1. [Skills and Tech Stack](#-skills-and-tech-stack)
+2. [Featured Projects](#-featured-projects)
+3. [Publications](#-publications)
+4. [Blog Posts](#-blog-posts)
 5. [Contact Me](#-contact-me)
+
+---
+
+## 🚴 Skills and Tech Stack
+
+1. **Research design:** experienced in designing reproducible research, project management, data cleaning, analysis, visualization, and drafting reports. See examples in [publications](#-publications).
+2. **Big data:** experienced in end-to-end big data pipepline design and implementation, from storing streaming data called using API in cloud servers to producing predictive insights for end user in a flask environment. *Examples coming soon.*
+3. **Machine learning:** experienced creating and evaluating models for supervised, unsupervised, and ensemble models using scikit-learn and PyCaret. See examples in [featured projects](#-featured-projects).
+
+
+| Area | Technology |
+|---|---|
+| Programming | Bash, Python, Julia (learning) |
+| Analytics | iPython, PowerBI, R, SQL, Tableau |
+| Statistical software | SAS, Stata |
+| Web | Google Cloud, HTML, WordPress, Flask |
 
 ---
 
@@ -48,14 +68,11 @@ Using this data, we create a random forest model, that gives us predictions with
 
 ## 📚 Publications
 
-### Predicting Likelihood of Depression Using Socioeconomic Survey Data in Refugee Camps and Their Hosts
-[Pre-print draft forthcoming]
-
-### [The Impact of Financial Assistance through Volunteer Programmes in Cox's Bazar Refugee Camps](https://data.unhcr.org/en/documents/details/93863) [external link]
+### [The Impact of Financial Assistance through Volunteer Programmes in Cox's Bazar Refugee Camps](https://data.unhcr.org/en/documents/details/93863)
 
 *June 26, 2022*
 
-A UNHCR-Yale survey of refugees finds the humanitarian refugee volunteer programmes and cash-for-work are the main sources of generating income inside camps. Average household income closely follows the refugee volunteer guidelines set by the humanitarian coordination mechanism and agreed by the Government of Bangladesh, and much below the minimum expenditure basket. Households with access to cash-for-work or refugee volunteer opportunities are likely to earn more than the rest of the population. Over 1 in 4 households monetize some form of assistance to meet their family needs.
+A UNHCR-Yale survey of refugees finds the humanitarian refugee volunteer programmes and cash-for-work are the main sources of generating income inside camps. Average household income closely follows the refugee volunteer guidelines set by the humanitarian coordination mechanism and agreed by the Government of Bangladesh, and much below the minimum expenditure basket. Households with access to cash-for-work or refugee volunteer opportunities are likely to earn more than the rest of the population. Over 1 in 4 households monetize some form of assistance to meet their family needs. [[link to full report](https://data.unhcr.org/en/documents/details/93863)]
 
 ---
 
@@ -81,20 +98,9 @@ Rohingya refugees and Bangladeshi adolescents report being impoverished due to t
 
 ---
 
-## 🚴 Skills and Tech Stack
-
-**My data science toolkit:**
-1. Sample design: SAS, STATA, Python, R
-2. Data collection: KoBo Toolbox, SurveyCTO
-3. Data preparation, manipulation, anonymization: R, Python, SAS, SDCMicro, SQL, STATA
-4. Data analysis: R, Python, SAS, STATA
-5. Predictive modeling: STATA, Python (generally scikit-learn, SciPy, PyCaret)
-6. Data visualization: PowerBI, SAS, STATA, Tableau, iPython, R
-7. Project control: Git (and GitHub), Microsoft Project
-
----
-
 ## 📭 Contact Me
 
-❤️ Reach me on [LinkedIn messages](https://linkedin.com/in/Masud90) or DM me on [Twitter](https://twitter.com/masudtweets).
-[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/masudtweets.svg?style=social&label=Follow%20%40masudtweets)](https://twitter.com/masudtweets)
+❤️ Message me on [LinkedIn](https://linkedin.com/in/Masud90) or DM me on [Twitter](https://twitter.com/masudtweets).
+
+![Twitter Follow](https://img.shields.io/twitter/follow/masudtweets?style=social)
+
