@@ -7,7 +7,6 @@ Economic Research | Data Analytics | Machine Learning
 
 [![Top Languages on GitHub](https://github-readme-stats-eight-lovat-13.vercel.app//api/top-langs/?username=masud90&layout=compact)](https://github.com/masud90/github-readme-stats) 
 
-
 ---
 
 ## 👇 Sections
@@ -102,4 +101,5 @@ Rohingya refugees and Bangladeshi adolescents report being impoverished due to t
 
 ❤️ Message me on [LinkedIn](https://linkedin.com/in/Masud90) or DM me on [Twitter](https://twitter.com/masudtweets).
 
+![visitors](https://visitor-badge.glitch.me/badge?page_id=masud90.masud90.github.io&left_color=grey&right_color=teal)
 [![Twitter Follow](https://img.shields.io/twitter/follow/masudtweets?style=social&logo=twitter)](https://twitter.com/masudtweets)
