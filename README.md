@@ -1,4 +1,4 @@
-# <img src="https://github.com/masud90/masud90.github.io/blob/main/assets/images/peep.svg" width="60"> Masud Rahman
+# <img src="https://raw.githubusercontent.com/masud90/masud90.github.io/main/assets/images/notion-avatar-1661073797391.svg" width="60"> Masud Rahman
 
 Economic Research | Data Analytics | Machine Learning 
 
