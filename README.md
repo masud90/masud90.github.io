@@ -68,6 +68,13 @@ This dataset contains 6 variables as follows:
 
 Using this data, we create a random forest model, that gives us predictions with an R-squared error value of 0.993 which is considered very robust.
 
+
+### [The Owen Wilson WOW Dataset](https://github.com/masud90/OwenWilson)
+
+![Owen Wilson GIF](https://github.com/masud90/OwenWilson/blob/main/Assets/Images/owen-wilson-wow-marley-and-me.gif)
+
+Wow. Does Own Wilson really say Wow that many times? I tried to find out in this fun exercise. I collected data on Owen Wilson's movies and how many times he says 'wow' in each movie, and then visualized the data. This project shows example of collecting web data, performing ETL, and data analytics combined. 
+
 ---
 
 ## 📚 Publications
