@@ -71,7 +71,7 @@ Using this data, we create a random forest model, that gives us predictions with
 
 ### [The Owen Wilson WOW Dataset](https://github.com/masud90/OwenWilson)
 
-![Owen Wilson GIF](https://github.com/masud90/OwenWilson/blob/main/Assets/Images/owen-wilson-wow-marley-and-me.gif)
+![Owen Wilson GIF](https://github.com/masud90/OwenWilson/blob/f45d454114d6847177c20149867afa802e87a209/Assets/Images/owen-wilson-wow-marley-and-me.gif)
 
 Wow. Does Own Wilson really say Wow that many times? I tried to find out in this fun exercise. I collected data on Owen Wilson's movies and how many times he says 'wow' in each movie, and then visualized the data. This project shows example of collecting web data, performing ETL, and data analytics combined. 
 
