@@ -1,5 +1,5 @@
 menu:
-- {name: 'publications', url: '/publications'}
+- {name: 'recent works', url: '/publications'}
 - {name: 'cv', url: '/cv'}
 - {name: 'contact', url: '/contact'}
 
