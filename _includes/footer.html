@@ -1,10 +1,13 @@
 <footer class="pt-5 my-5 text-muted border-top">
   <div class="row">
     <div class="col-md-6 text-end social-media-icons">
-     <a href="https://github.com/masud90" class="ms-3 fs-5"><i class="fab fa-github"></i></a>
-      <a href="https://twitter.com/masudtweets" class="ms-3 fs-5"><i class="fab fa-twitter"></i></a>
-      <a href="https://linkedin.com/in/masud90" class="ms-3 fs-5"><i class="fab fa-linkedin"></i></a>
-      <a href="https://orcid.org/0000-0001-8991-8253" class="ms-3 fs-5"><i class="ai ai-orcid"></i></a>
+      {% for item in site.data.settings.social %}
+        {% if item.icon == 'researchgate' or item.icon == 'google-scholar' %}
+          <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="ai ai-{{ item.icon }}"></i></a>
+        {% else %}
+          <a href="{{ item.link }}" class="menu-link" target="_blank"><i class="fa fa-{{ item.icon }}"></i></a>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </footer>
