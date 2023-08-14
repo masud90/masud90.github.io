@@ -1,12 +1,8 @@
 <footer class="pt-5 my-5 text-muted border-top">
   <div class="row">
     <div class="col-md-6 text-end social-media-icons">
-      {% for item in site.data.settings.social %}
-        {% if "fab fa-" | append: item.icon | in: item.icon %}
-          <a href="{{ item.link }}" class="ms-3 fs-5"><i class="{{ item.icon }}"></i></a>
-        {% elsif "ai ai-" | append: item.icon | in: item.icon %}
-          <a href="{{ item.link }}" class="ms-3 fs-5"><i class="ai ai-{{ item.icon }}"></i></a>
-        {% endif %}
+     {% for item in site.data.settings.social %}
+            <a href="{{ item.link }}" class="ms-3 fs-5"><i class="fab fa-{{ item.icon }}"></i></a>
       {% endfor %}
     </div>
   </div>
