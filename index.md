@@ -3,6 +3,4 @@ layout: home
 title: "Home"
 ---
 
-This theme allows an academic person to showcase their research interests, publications, research group, curriculum vitae, any courses that they may be teaching, or anything else they may want to put out into the world.
-
-Academics can use this home page to describe their research interests, display their latest publications, or provide an introduction to their research group.
+I am an economist at the Office of the United Nations High Commissioner for Refugees (UNHCR) in Dhaka, Bangladesh. I have 9+ years of experience in development and humanitarian contexts as management consultant, project manager, and researcher. I completed my Dual M.A. in Economics/ International Political Economy & Development, from Fordham University, New York City under Foreign Fulbright Student Fellowship. 
