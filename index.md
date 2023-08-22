@@ -4,6 +4,7 @@ title: "Home"
 ---
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/masud90)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/Masud90)
+[![orcID](https://img.shields.io/badge/ORCID-Masud_Rahman?style=flat&logo=orcid&color=darkgreen)](https://orcid.org/0000-0001-8991-8253)
 [![Twitter Follow](https://img.shields.io/twitter/follow/masudtweets?style=social&logo=twitter)](https://twitter.com/masudtweets)
 
 💼 I am a research economist and data scientist, currently working as an economist at the Office of the United Nations High Commissioner for Refugees (UNHCR) in Dhaka, Bangladesh. I have over nine years of experience in development and humanitarian contexts as management consultant, project manager, and researcher, with work experience across Asia, Africa and North America.
