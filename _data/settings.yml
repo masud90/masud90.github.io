@@ -10,4 +10,4 @@ social:
 - {icon: 'linkedin', link: 'https://linkedin.com/in/masud90'}
 
 contacts:
-- {name: 'Masud Rahman', title: 'Economist', department: 'UNHCR', institution: '', institution_address: '', phone: '', email: '', office: ''}
+- {name: 'Masud Rahman', title: 'Economist', department: '', institution: 'UN Refugee Agency (UNHCR)', institution_address: '', phone: '', email: '', office: '', twitter: '[@masudtweets](https://twitter.com/masudtweets)'}
