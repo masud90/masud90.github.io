@@ -12,31 +12,3 @@ body {
 body a {
   color: $linkColor
 }
-
-/* Style for the featured image container */
-.featured-image {
-  margin-bottom: 10px;
-}
-
-/* Style for the featured image */
-.featured-image img {
-  width: 33%;
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  border: 1px solid #ccc;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-/* Style for the post title */
-.post-item p a {
-  font-weight: bold;
-  color: #333;
-  text-decoration: none;
-}
-
-/* Style for the post date */
-.post-item p {
-  color: #888;
-}
