@@ -2,7 +2,18 @@
   <div class="col-md-12">
     <h3 class="fw-bold border-bottom pb-3 mb-5">Updates</h3>
     {% for post in site.posts %}
-      <p><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
+      <div class="post-item">
+        {% assign content = post.content | split: '<!-- more -->' %}
+        {% if content[0] contains '<img' %}
+          {% assign img_tag = content[0] | split: '<img' | last %}
+          {% assign img_url = img_tag | split: 'src="' | last | split: '"' | first %}
+          {% assign img_alt = img_tag | split: 'alt="' | last | split: '"' | first %}
+          <div class="featured-image">
+            <img src="{{ img_url }}" alt="{{ img_alt }}" style="width: 33%;">
+          </div>
+        {% endif %}
+        <p><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
+      </div>
     {% endfor %}
   </div>
 </div>
