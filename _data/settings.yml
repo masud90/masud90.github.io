@@ -1,6 +1,6 @@
 menu:
 - {name: 'recent works', url: '/publications'}
-- {name: 'updates', url: '/updates'}
+- {name: 'data visualizations', url: '/updates'}
 - {name: 'cv', url: '/cv'}
 - {name: 'contact', url: '/contact'}
 
