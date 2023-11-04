@@ -22,7 +22,3 @@ title: "Home"
 6. Project control: Git, Microsoft Project
 
 [![Top Languages on GitHub](https://github-readme-stats-eight-lovat-13.vercel.app//api/top-langs/?username=masud90&langs_count=10&layout=compact)](https://github.com/masud90) 
-
-**My blog posts:**
-
-📰 [Blog posts on UNHCR Website](https://www.unhcr.org/blogs/blog-authors/masud-rahman/)
