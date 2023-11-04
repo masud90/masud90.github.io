@@ -6,11 +6,11 @@ title: "Home"
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/Masud90)
 [![Twitter Follow](https://img.shields.io/twitter/follow/masudtweets?style=social&logo=twitter)](https://twitter.com/masudtweets)
 
-💼 I am a research economist and data scientist, currently working as an economist at the Office of the United Nations High Commissioner for Refugees (UNHCR) in Dhaka, Bangladesh. I have over nine years of experience in development and humanitarian contexts as management consultant, project manager, and researcher, with work experience across Asia, Africa and North America.
+💼 I am a research economist and data scientist, currently working as an economist at the Office of the United Nations High Commissioner for Refugees (UNHCR) in Kenya, formerly with UNHCR in Bangladesh. I have over nine years of experience in development and humanitarian contexts as management consultant, project manager, and researcher, with work experience across Asia, Africa and North America.
 
 📓 I completed my Dual M.A. in Economics/ International Political Economy & Development, from Fordham University, New York City under Foreign Fulbright Student Fellowship. I also completed my undergraduate business degree from Institute of Business Administration, University of Dhaka.
 
-📈 My current role focuses on generating comparable socioeconomic statistics for forcibly displaced population, most notably, the Rohingya refugee population.
+📈 My current role focuses on generating comparable socioeconomic statistics for forcibly displaced population.  most notably, the Rohingya refugee population and the forcibly displaced in Kenya.
 
 **My data analytics stack:**
 
