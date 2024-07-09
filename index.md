@@ -12,11 +12,12 @@ title: "Home"
 
 📈 My current role focuses on generating comparable socioeconomic statistics for forcibly displaced population.  most notably, the Rohingya refugee population and the forcibly displaced in Kenya.
 
-## Ongoing projects:
+**Ongoing projects:**
+
 1. Impact of obtaining citizenship among formerly stateless persons.
 2. Evaluation of cash transfers and psychosocial education among refugees.
 
-## My data analytics stack:**
+**My data analytics stack:**
 
 1. Sample design: SAS, STATA
 2. Data collection: KoBo Toolbox, SurveyCTO
