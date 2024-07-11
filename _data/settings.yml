@@ -4,9 +4,8 @@ menu:
 
 social:
 - {icon: 'github', link: 'https://github.com/masud90'}
-- {icon: 'twitter', link: 'https://twitter.com/masudtweets'}
-- {icon: 'x', link: 'https://twitter.com/masudtweets'}
 - {icon: 'linkedin', link: 'https://linkedin.com/in/masud90'}
+- {icon: 'x-twitter', link: 'https://x.com/masudtweets'}
 
 contacts:
-- {name: 'Masud Rahman', title: 'Economist', department: '', institution: 'UN Refugee Agency (UNHCR)', institution_address: '', phone: '', email: '', office: '', twitter: '[@masudtweets](https://twitter.com/masudtweets)'}
+- {name: 'Masud Rahman', title: 'Economist', department: '', institution: 'UN Refugee Agency (UNHCR)', institution_address: 'Nairobi, Kenya', phone: '', email: '', office: '', twitter: '[@masudtweets](https://x.com/masudtweets)'}
