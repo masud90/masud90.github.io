@@ -7,7 +7,7 @@
       {% endfor %}
     {% else %}
       {% for item in site.data.publications.index %}
-        <div style="display: flex; align-items: center;">
+        <div style="display: flex; align-items: center; margin-bottom: 20px;">
           <img src="{{ item.image }}" alt="Image for {{ item.name }}" style="margin-right: 10px; width: 100px; height: auto;">
           <p><strong>{{ item.category }}</strong> - {{ item.name }} <a href="{{ item.url }}">[&#10145; Read more]</a></p>
         </div>
