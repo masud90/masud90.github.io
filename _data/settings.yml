@@ -1,7 +1,5 @@
 menu:
 - {name: 'recent works', url: '/publications'}
-- {name: 'data visualizations', url: '/updates'}
-- {name: 'cv', url: '/cv'}
 - {name: 'contact', url: '/contact'}
 
 social:
