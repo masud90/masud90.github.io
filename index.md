@@ -18,12 +18,8 @@ title: "Home"
 2. Evaluation of cash transfers and psychosocial education among refugees.
 
 **My data analytics stack:**
-
-1. Sample design: SAS, STATA
-2. Data collection: KoBo Toolbox, SurveyCTO
-3. Data preparation, manipulation, anonymization: R, Python, SAS, SDCMicro, SQL, STATA
-4. Data analysis: R, Python, SAS, STATA
-5. Data visualization: PowerBI, SAS, STATA, Tableau
-6. Project control: Git, Microsoft Project
+1. Statistical software: `SAS`, `Stata`, `Python`, `R`
+2. Data management: `MySQL`, `SDCMicro (R)`
+3. Data visualization: `PowerBI`, `Tableau`
 
 [![Top Languages on GitHub](https://github-readme-stats-eight-lovat-13.vercel.app//api/top-langs/?username=masud90&langs_count=10&layout=compact)](https://github.com/masud90) 
