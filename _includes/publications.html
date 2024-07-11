@@ -3,11 +3,11 @@
     <h3 class="fw-bold border-bottom pb-3 mb-5">Recent works</h3>
     {% if page.title == "Home" %}
       {% for item in site.data.publications.featured %}
-        <p><strong>{{ item.category }}</strong> - {{ item.name }} <a href="{{ item.url }}">[Read more]</a></p>
+        <p><strong>{{ item.category }}</strong> - {{ item.name }} <a href="{{ item.url }}">[Read more &#128196;]</a></p>
       {% endfor %}
     {% else %}
       {% for item in site.data.publications.index %}
-        <p><strong>{{ item.category }}</strong> - {{ item.name }} <a href="{{ item.url }}">[Read more]</a></p>
+        <p><strong>{{ item.category }}</strong> - {{ item.name }} <a href="{{ item.url }}">[Read more &#128196;]</a></p>
       {% endfor %}
     {% endif %}
   </div>
