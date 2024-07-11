@@ -11,8 +11,8 @@
           <a href="{{ item.url }}">
             <img src="{{ item.image }}" alt="Image for {{ item.name }}" style="margin-right: 10px; width: 100px; height: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
           </a>
-          <p><strong>{{ item.category }}</strong> - {{ item.name }}</p>
-		  <p>&#10145; <a href="{{ item.url }}">Read more</a></p>
+          <p><strong>{{ item.category }}</strong> - </p>
+		  <p>{{ item.name }}<br>&#10145; <a href="{{ item.url }}">Read more</a></p>
         </div>
       {% endfor %}
     {% endif %}
