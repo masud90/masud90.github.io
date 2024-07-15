@@ -1,5 +1,6 @@
 menu:
 - {name: 'recent works', url: '/publications'}
+- {name: 'data science', url: '/datascience'}
 - {name: 'contact', url: '/contact'}
 
 social:
