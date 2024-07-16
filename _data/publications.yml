@@ -43,7 +43,7 @@ summary: 'This brief dives deep into the first socioeconomic survey conducted in
 url: 'https://microdata.unhcr.org/index.php/catalog/1053', 
 category: 'Dataset', 
 image: '/assets/img/dataset_2022.png',
-summary: 'Around 30,000 refugees have been relocated by the Bangladesh government to Bhasan Char, and further plans exist to relocate about 100,000 refugees. To assess the conditions relocated refugees live under and that future relocations could be subject to, the Cox's Bazar Panel Survey was extended to cover Bhasan Char. The panel survey was jointly with World Bank, Y-RISE (Yale University), and GAGE programme. The survey was implemented in late-2022 and covered 962 households and 4,484 individuals.'}
+summary: 'Around 30,000 refugees have been relocated by the Bangladesh government to Bhasan Char, and further plans exist to relocate about 100,000 refugees. To assess the conditions relocated refugees live under and that future relocations could be subject to, the Coxs Bazar Panel Survey was extended to cover Bhasan Char. The panel survey was jointly with World Bank, Y-RISE (Yale University), and GAGE programme. The survey was implemented in late-2022 and covered 962 households and 4,484 individuals.'}
 - {name: 'Davis, C Austin; Rahman, Masud; Hasegawa, Nodoka; Cadoni, Paula; Beltramo, Theresa (2022). "The Impact of Financial Assistance through Volunteer Programmes in Coxs Bazar Refugee Camps"; Dhaka: UN Refugee Agency (UNHCR)', 
 url: 'https://data.unhcr.org/en/documents/details/93863', 
 category: 'Report', 
