@@ -3,7 +3,7 @@
     <h3 class="fw-bold border-bottom pb-3 mb-5">Recent works</h3>
     {% if page.title == "Home" %}
       {% for item in site.data.publications.featured %}
-        <p><strong>{{ item.category }}</strong> - {{ item.name }} <a href="{{ item.url }}">[&#10145;Read more]</a></p>
+        <p><strong>{{ item.category }}</strong> - {{ item.citation }} <a href="{{ item.url }}">[&#10145;Read more]</a></p>
       {% endfor %}
 	  <p>[&#10145;<a href="/publications"<strong>See details</strong>]</a></p>
     {% else %}
@@ -12,8 +12,9 @@
           <a href="{{ item.url }}">
             <img src="{{ item.image }}" alt="Image for {{ item.name }}" style="margin-right: 10px; width: 100px; height: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
           </a>
-          <p><strong>{{ item.name }}{{ item.category }}</strong> </a><br><br>
-          {{ item.summary }} &#10145; <a href="{{ item.url }}"> Read more
+          <p><strong>{{ item.name }}</strong> </a><br><br>
+          {{ item.summary }} &#10145; <a href="{{ item.url }}"> Read more <br>
+            Cite as: {{ item.citation }}
           </p>
         </div>
       {% endfor %}
