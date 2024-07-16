@@ -8,12 +8,13 @@
 	  <p>[&#10145;<a href="/publications"<strong>See details</strong>]</a></p>
     {% else %}
       {% for item in site.data.publications.index %}
-        <div style="display: flex; align-items: center; margin-bottom: 20px;">
+        <div style="display: flex; align-items: top; margin-bottom: 20px;">
           <a href="{{ item.url }}">
             <img src="{{ item.image }}" alt="Image for {{ item.name }}" style="margin-right: 10px; width: 100px; height: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
           </a>
-          <p><strong>{{ item.category }}</strong> - {{ item.name }}<br>&#10145; <a href="{{ item.url }}"> Read more</a><br>
-          {{ item.summary }}
+          <p><strong>{{ item.category }}</strong> - {{ item.name }}</a><br>
+          {{ item.summary }}<br>
+          &#10145; <a href="{{ item.url }}"> Read more
           </p>
         </div>
       {% endfor %}
