@@ -1,14 +1,51 @@
 featured:
-- {name: 'Rahman, Masud (2024). "PYRAMID_CHART: Stata module to generate a population pyramid chart," Statistical Software Components S459350, Boston College Department of Economics.' , url: 'https://ideas.repec.org/c/boc/bocode/s459350.html', category: 'Software'}
-- {name: 'Fix, Jedediah; and Rahman, Masud (2024). "Host Communities and Refugees in the East and Horn of Africa and the Great Lakes"; World Bank – UNHCR Joint Data Center. Quarterly Digest on Forced Displacement, Ninth Issue. Washington, D.C.: World Bank Group. DOI: 10.47053/jdc.080524', url: 'https://doi.org/10.47053/jdc.080524', category: 'Report'}
-- {name: 'Rahman, Masud; Hasegawa, Nodoka; Beltramo, Theresa (2023). "Livelihoods on Bhasan Char"; Briefs from Coxs Bazar Panel Survey on Bhasan Char Baseline - 2022, Second Issue. Dhaka: UN Refugee Agency (UNHCR)', url: 'https://data2.unhcr.org/en/documents/details/102924', category: 'Report'}
-- {name: 'Rahman, Masud; Hasegawa, Nodoka; Beltramo, Theresa (2023). "Study Background and Demographics"; Briefs from Coxs Bazar Panel Survey on Bhasan Char Baseline - 2022, First Issue. Dhaka: UN Refugee Agency (UNHCR) ', url: 'https://data2.unhcr.org/en/documents/details/102923', category: 'Report'}
-- {name: 'Davis, C Austin; Rahman, Masud; Hasegawa, Nodoka; Cadoni, Paula; Beltramo, Theresa (2022). "The Impact of Financial Assistance through Volunteer Programmes in Coxs Bazar Refugee Camps"; Dhaka: UN Refugee Agency (UNHCR)', url: 'https://data.unhcr.org/en/documents/details/93863', category: 'Report'}
+- {name: 'Rahman, Masud (2024). "PYRAMID_CHART: Stata module to generate a population pyramid chart," Statistical Software Components S459350, Boston College Department of Economics.' , 
+url: 'https://ideas.repec.org/c/boc/bocode/s459350.html', 
+category: 'Software'}
+- {name: 'Fix, Jedediah; and Rahman, Masud (2024). "Host Communities and Refugees in the East and Horn of Africa and the Great Lakes"; World Bank – UNHCR Joint Data Center. Quarterly Digest on Forced Displacement, Ninth Issue. Washington, D.C.: World Bank Group. DOI: 10.47053/jdc.080524', 
+url: 'https://doi.org/10.47053/jdc.080524', 
+category: 'Brief/ Paper'}
+- {name: 'Rahman, Masud; Hasegawa, Nodoka; Beltramo, Theresa (2023). "Livelihoods on Bhasan Char"; Briefs from Coxs Bazar Panel Survey on Bhasan Char Baseline - 2022, Second Issue. Dhaka: UN Refugee Agency (UNHCR)', 
+url: 'https://data2.unhcr.org/en/documents/details/102924', 
+category: 'Brief/ Paper'}
+- {name: 'Rahman, Masud; Hasegawa, Nodoka; Beltramo, Theresa (2023). "Study Background and Demographics"; Briefs from Coxs Bazar Panel Survey on Bhasan Char Baseline - 2022, First Issue. Dhaka: UN Refugee Agency (UNHCR) ', 
+url: 'https://data2.unhcr.org/en/documents/details/102923', 
+category: 'Brief/ Paper'}
+- {name: 'UNHCR (2022). Bangladesh: Bhasan Car Panel Survey - 2022. DDI DOCUMENT ID: UNHCR_BGD_2022_cbps_anon_data_v2.1', 
+url: 'https://microdata.unhcr.org/index.php/catalog/1053', 
+category: 'Dataset'}
+- {name: 'Davis, C Austin; Rahman, Masud; Hasegawa, Nodoka; Cadoni, Paula; Beltramo, Theresa (2022). "The Impact of Financial Assistance through Volunteer Programmes in Coxs Bazar Refugee Camps"; Dhaka: UN Refugee Agency (UNHCR)', 
+url: 'https://data.unhcr.org/en/documents/details/93863', 
+category: 'Report'}
 
 index:
-- {name: 'Rahman, Masud (2024). "PYRAMID_CHART: Stata module to generate a population pyramid chart," Statistical Software Components S459350, Boston College Department of Economics.' , url: 'https://ideas.repec.org/c/boc/bocode/s459350.html', category: 'Software', image: '/assets/img/software_2024_1.png'}
-- {name: 'Fix, Jedediah; and Rahman, Masud (2024). "Host Communities and Refugees in the East and Horn of Africa and the Great Lakes"; World Bank – UNHCR Joint Data Center. Quarterly Digest on Forced Displacement, Ninth Issue. Washington, D.C.: World Bank Group. DOI: 10.47053/jdc.080524', url: 'https://doi.org/10.47053/jdc.080524', category: 'Report', image: '/assets/img/report_2024_1.png'}
-- {name: 'Rahman, Masud; Hasegawa, Nodoka; Beltramo, Theresa (2023). "Livelihoods on Bhasan Char"; Briefs from Coxs Bazar Panel Survey on Bhasan Char Baseline - 2022, Second Issue. Dhaka: UN Refugee Agency (UNHCR)', url: 'https://data2.unhcr.org/en/documents/details/102924', category: 'Report', image: '/assets/img/report_2023_2.png'}
-- {name: 'Rahman, Masud; Hasegawa, Nodoka; Beltramo, Theresa (2023). "Study Background and Demographics"; Briefs from Coxs Bazar Panel Survey on Bhasan Char Baseline - 2022, First Issue. Dhaka: UN Refugee Agency (UNHCR) ', url: 'https://data2.unhcr.org/en/documents/details/102923', category: 'Report', image: '/assets/img/report_2023_1.png'}
-- {name: 'UNHCR (2022). Bangladesh: Bhasan Car Panel Survey - 2022. DDI DOCUMENT ID: UNHCR_BGD_2022_cbps_anon_data_v2.1', url: 'https://microdata.unhcr.org/index.php/catalog/1053', category: 'Dataset', image: '/assets/img/dataset_2022.png'}
-- {name: 'Davis, C Austin; Rahman, Masud; Hasegawa, Nodoka; Cadoni, Paula; Beltramo, Theresa (2022). "The Impact of Financial Assistance through Volunteer Programmes in Coxs Bazar Refugee Camps"; Dhaka: UN Refugee Agency (UNHCR)', url: 'https://data.unhcr.org/en/documents/details/93863', category: 'Report', image: '/assets/img/report_2022.png'}
+- {name: 'Rahman, Masud (2024). "PYRAMID_CHART: Stata module to generate a population pyramid chart," Statistical Software Components S459350, Boston College Department of Economics.' , 
+url: 'https://ideas.repec.org/c/boc/bocode/s459350.html', 
+category: 'Software', 
+image: '/assets/img/software_2024_1.png',
+summary: 'pyramid_chart generates a population pyramid chart for a given numeric variable, with categories defined by two categorical variables. The chart displays the distribution of the numeric variable across the levels of the first categorical variable, split by the levels of the second categorical variable.'}
+- {name: 'Fix, Jedediah; and Rahman, Masud (2024). "Host Communities and Refugees in the East and Horn of Africa and the Great Lakes"; World Bank – UNHCR Joint Data Center. Quarterly Digest on Forced Displacement, Ninth Issue. Washington, D.C.: World Bank Group. DOI: 10.47053/jdc.080524', 
+url: 'https://doi.org/10.47053/jdc.080524', 
+category: 'Brief/ Paper', 
+image: '/assets/img/report_2024_1.png',
+summary: 'This JDC Digest explores the impacts of forced displacement on host communities in the EHAGL region, as well as opportunities to facilitate opportunities for refugees and other forcibly displaced persons through mobility, assistance and inclusion into national services. Our review unveils how refugee presence can spur development and enhance service infrastructure while reshaping local labor dynamics. Central to our findings is the crucial role of refugee self-reliance and mobility in fostering economic and social integration. However, the review also underscores the need for further research, particularly regarding the inclusion of refugees into national systems and the specific challenges facing returnees and internally displaced persons (IDPs). Offering a comprehensive view, this Digest aims to inform balanced policy decisions in the region.'}
+- {name: 'Rahman, Masud; Hasegawa, Nodoka; Beltramo, Theresa (2023). "Livelihoods on Bhasan Char"; Briefs from Coxs Bazar Panel Survey on Bhasan Char Baseline - 2022, Second Issue. Dhaka: UN Refugee Agency (UNHCR)', 
+url: 'https://data2.unhcr.org/en/documents/details/102924', 
+category: 'Brief/ Paper', 
+image: '/assets/img/report_2023_2.png',
+summary: 'This socioeconomic brief focuses on the livelihood opportunities and engagements of Rohingya refugees on Bhasan Char. The data collected in November 2022 reveals essential indicators related income generating activities on the island. It explores the ways Rohingya refugees search for work, with a heavy reliance on social networks and community leaders, as well as the support provided by humanitarian organizations. Additionally, the brief sheds light on how cash assistance provided during relocation has been utilized by households on Bhasan Char.'}
+- {name: 'Rahman, Masud; Hasegawa, Nodoka; Beltramo, Theresa (2023). "Study Background and Demographics"; Briefs from Coxs Bazar Panel Survey on Bhasan Char Baseline - 2022, First Issue. Dhaka: UN Refugee Agency (UNHCR) ', 
+url: 'https://data2.unhcr.org/en/documents/details/102923', 
+category: 'Brief/ Paper', 
+image: '/assets/img/report_2023_1.png',
+summary: 'This brief dives deep into the first socioeconomic survey conducted in the context of some 30,000 Rohingya refugees who now live on Bhasan Char. The study highlights key population demographics, such as the distribution by age and gender, and provides an overview of the prevailing humanitarian needs. It also outlines key thematic areas where the survey collected information.'}
+- {name: 'UNHCR (2022). Bangladesh: Bhasan Car Panel Survey - 2022. DDI DOCUMENT ID: UNHCR_BGD_2022_cbps_anon_data_v2.1', 
+url: 'https://microdata.unhcr.org/index.php/catalog/1053', 
+category: 'Dataset', 
+image: '/assets/img/dataset_2022.png',
+summary: 'Around 30,000 refugees have been relocated by the Bangladesh government to Bhasan Char, and further plans exist to relocate about 100,000 refugees. To assess the conditions relocated refugees live under and that future relocations could be subject to, the Cox's Bazar Panel Survey was extended to cover Bhasan Char. The panel survey was jointly with World Bank, Y-RISE (Yale University), and GAGE programme. The survey was implemented in late-2022 and covered 962 households and 4,484 individuals.'}
+- {name: 'Davis, C Austin; Rahman, Masud; Hasegawa, Nodoka; Cadoni, Paula; Beltramo, Theresa (2022). "The Impact of Financial Assistance through Volunteer Programmes in Coxs Bazar Refugee Camps"; Dhaka: UN Refugee Agency (UNHCR)', 
+url: 'https://data.unhcr.org/en/documents/details/93863', 
+category: 'Report', 
+image: '/assets/img/report_2022.png',
+summary: 'Bangladesh hosts about a million Rohingya refugees from Myanmar, with limited economic opportunities. Humanitarian aid includes cash-for-work and refugee volunteer programmes, providing essential stipends. A UNHCR-Yale survey shows these are the main income sources in camps. Despite earning more, refugee incomes remain below the minimum expenditure basket, with 63% of households having unmet needs and 82% unable to afford critical expenses like food, clothing, and healthcare. Only 10% of households save income, and 38% donate, mainly through religious offerings.'}
