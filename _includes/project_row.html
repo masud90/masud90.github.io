@@ -1,6 +1,5 @@
 <tr>
-    <td>{{ project.ProjectTitle }}</td>
-    <td><a href="{{ project.URL }}" target="_blank">{{ project.URL }}</a></td>
+    <td><a href="{{ project.URL }}" target="_blank">{{ project.ProjectTitle }}</a></td>
     <td>{{ project.Technology }}</td>
     <td>
       {% assign types = project.ProjectType | split: ',' %}
