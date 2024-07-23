@@ -1,7 +1,32 @@
----
-layout: default
----
-
-{{ content }}
-
-{% include datascience.html %}
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+  {% include head.html %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <div class="col-lg-8 mx-auto p-3 py-md-5">
+    {% include header.html %}
+    <div class="container">
+      <h1>{{ page.title }}</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Project Title</th>
+            <th>URL</th>
+            <th>Technology</th>
+            <th>Project Type</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for project in site.data.projects %}
+            {% include project_row.html project=project %}
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% include footer.html %}
+  </div>
+</body>
+</html>

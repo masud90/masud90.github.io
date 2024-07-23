@@ -1,0 +1,12 @@
+<tr>
+    <td>{{ project.ProjectTitle }}</td>
+    <td><a href="{{ project.URL }}" target="_blank">{{ project.URL }}</a></td>
+    <td>{{ project.Technology }}</td>
+    <td>
+      {% assign types = project.ProjectType | split: ',' %}
+      {% for type in types %}
+        <span class="tag">{{ type | strip }}</span>
+      {% endfor %}
+    </td>
+  </tr>
+  
