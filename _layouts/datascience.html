@@ -4,32 +4,73 @@
   {% include head.html %}
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    /* Optional: some basic styling for the dropdown */
+    .filter-container {
+      margin-bottom: 20px;
+    }
+  </style>
 </head>
 <body>
-  <div class="container">
+  <div class="col-lg-8 mx-auto p-3 py-md-5">
     {% include header.html %}
-    <h1>{{ page.title }}</h1>
-    <p>
+    <div class="container">
+      <h1>{{ page.title }}</h1>
+      <p>
         This page contains a list of sample projects built mostly using tutorial datasets and some real life projects that showcase my work using data science and machine learning tools. Primarily the projects use Python, R, or Stata, and visualizations use tools like PowerBI, Tableau, Shiny, or Quarto/RevealJS.
     </p>
     <p style="color:#808080;"><small>
         This page is currently under development, some links will continue to be updated as it becomes available.
     </small></p>
-    <table>
-      <thead>
-        <tr>
-          <th>Project Title</th>
-          <th>Technology</th>
-          <th>Project Type</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for project in site.data.projects %}
-          {% include project_row.html project=project %}
-        {% endfor %}
-      </tbody>
-    </table>
+    
+      <!-- Filter Dropdown -->
+      <div class="filter-container">
+        <label for="technologyFilter">Filter by Technology:</label>
+        <select id="technologyFilter" onchange="filterTable()">
+          <option value="all">All</option>
+          {% assign technologies = site.data.projects | map: 'Technology' | uniq %}
+          {% for tech in technologies %}
+            <option value="{{ tech }}">{{ tech }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <table id="projectsTable">
+        <thead>
+          <tr>
+            <th>Project Title</th>
+            <th>Technology</th>
+            <th>Project Type</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for project in site.data.projects %}
+            {% include project_row.html project=project %}
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
     {% include footer.html %}
   </div>
+
+  <script>
+    function filterTable() {
+      var filter = document.getElementById('technologyFilter').value;
+      var table = document.getElementById('projectsTable');
+      var tr = table.getElementsByTagName('tr');
+
+      for (var i = 1; i < tr.length; i++) { // Start from 1 to skip the header row
+        var td = tr[i].getElementsByTagName('td')[1]; // Technology column
+        if (td) {
+          var tech = td.textContent || td.innerText;
+          if (filter === 'all' || tech === filter) {
+            tr[i].style.display = '';
+          } else {
+            tr[i].style.display = 'none';
+          }
+        }
+      }
+    }
+  </script>
 </body>
 </html>
