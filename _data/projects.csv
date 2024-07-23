@@ -1,7 +1,10 @@
 ﻿Serial,Title,URL,Technology,ProjectType
 1,Customer Data Cleaning,https://github.com/masud90/data_science_portfolio/blob/main/01%20Data%20Cleaning/Python/Data%20cleaning/Python%20data%20cleaning.ipynb,Python,Data Cleaning
-2,Web Scraped Data Cleaning,https://github.com/masud90/data_science_portfolio/blob/main/01%20Data%20Cleaning/Python/Web%20scraped%20data%20cleaning/Python%20Web%20Scraped%20Data%20Cleaning.ipynb,Python,"Data Cleaning, EDA"
+2,Web Scraped Data Cleaning,https://github.com/masud90/data_science_portfolio/blob/main/01%20Data%20Cleaning/Python/Web%20scraped%20data%20cleaning/Python%20Web%20Scraped%20Data%20Cleaning.ipynb,Python,Data Cleaning
 3,EDA on Movie Data,https://github.com/masud90/data_science_portfolio/blob/main/02%20Exploratory%20Data%20Analysis%20(EDA)/Python/EDA%20on%20movie%20data/Python%20EDA%20on%20movie%20data.ipynb,Python,EDA
 4,EDA on Sales Data,https://github.com/masud90/data_science_portfolio/tree/main/02%20Exploratory%20Data%20Analysis%20(EDA)/Python/EDA%20on%20sales%20data/.ipynb_checkpoints,Python,EDA
-5,House Price Prediction,https://github.com/masud90/data_science_portfolio/blob/main/03%20Regression%20Analysis/Python/House%20price/Predicting%20house%20prices.ipynb,Python,"EDA, Regression Analysis"
-6,Car Price Prediction,https://github.com/masud90/data_science_portfolio/blob/main/03%20Regression%20Analysis/Python/Car%20price/Car%20Price%20Prediction.ipynb,Python,"EDA, Regression Analysis"
+5,House Price Prediction,https://github.com/masud90/data_science_portfolio/blob/main/03%20Regression%20Analysis/Python/House%20price/Predicting%20house%20prices.ipynb,Python,Regression Analysis
+6,Car Price Prediction,https://github.com/masud90/data_science_portfolio/blob/main/03%20Regression%20Analysis/Python/Car%20price/Car%20Price%20Prediction.ipynb,Python,Regression Analysis
+7,Customer Churn Prediction,#,Python,Classification
+8,Stata pyramid_chart package,https://github.com/masud90/pyramid_chart,Stata,"Data visualization, Stata package"
+9,Visualizing Russian Defense Loss in Ukraine (self-updating dashboard on Kaggle),https://www.kaggle.com/code/masudrahman19/visualizing-russian-defense-loss-in-ukraine-2022,Python,"Data visualization, Dashboard"
