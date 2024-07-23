@@ -5,7 +5,7 @@
       {% for item in site.data.publications.featured %}
         <p><strong>{{ item.category }}</strong> - {{ item.citation }} <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer"> [&#10145; Read more]</a></p>
       {% endfor %}
-	  <p>[&#10145;<a href="/publications"<strong>See details</strong>]</a></p>
+	  <p><a href="/publications"<strong>See all &#10145;</strong></a></p>
     {% else %}
       {% for item in site.data.publications.index %}
         <div style="display: flex; align-items: top; margin-bottom: 20px;">

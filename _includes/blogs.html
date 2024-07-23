@@ -3,11 +3,11 @@
     <h3 class="fw-bold border-bottom pb-3 mb-5">Blog posts</h3>
     {% if page.title == "Home" %}
       {% for item in site.data.blogs.featured %}
-        <p>{{ item.name }}<a href="{{ item.url }}">[&#10145;Read more]</a></p>
+        <p>{{ item.name }}<a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">[&#10145;Read more]</a></p>
       {% endfor %}
     {% else %}
       {% for item in site.data.blogs.index %}
-        <p>{{ item.name }}<a href="{{ item.url }}">[&#10145;Read more]</a></p>
+        <p>{{ item.name }}<a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">[&#10145;Read more]</a></p>
       {% endfor %}
     {% endif %}
   </div>
