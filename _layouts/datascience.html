@@ -6,25 +6,23 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-  <div class="col-lg-8 mx-auto p-3 py-md-5">
+  <div class="container">
     {% include header.html %}
-    <div class="container">
-      <h1>{{ page.title }}</h1>
-      <table>
-        <thead>
-          <tr>
-            <th>Project Title</th>
-            <th>Technology</th>
-            <th>Project Type</th>
-          </tr>
-        </thead>
-        <tbody>
-          {% for project in site.data.projects %}
-            {% include project_row.html project=project %}
-          {% endfor %}
-        </tbody>
-      </table>
-    </div>
+    <h1>{{ page.title }}</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Project Title</th>
+          <th>Technology</th>
+          <th>Project Type</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for project in site.data.projects %}
+          {% include project_row.html project=project %}
+        {% endfor %}
+      </tbody>
+    </table>
     {% include footer.html %}
   </div>
 </body>
