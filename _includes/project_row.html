@@ -1,8 +1,8 @@
 <tr>
-  <td>{{ project.Technology }}</td>
   <td>
     <a href="{{ project.URL }}" target="_blank" rel="noopener noreferrer">"{{ project.Title }}"</a>
   </td>
+  <td>{{ project.Technology }}</td>
   <td>
     {% assign types = project.ProjectType | split: ',' %}
     {% for type in types %}
