@@ -22,8 +22,17 @@
       <p>
         This page contains a list of sample projects built mostly using tutorial datasets and some real life projects that showcase my skills of using data science and machine learning tools. Primarily, the projects use Python, R, or Stata, and visualizations use tools like PowerBI, Tableau, Shiny, or Quarto/RevealJS.
     </p>    
-      <!-- Filter Dropdown -->
+      <!-- Filter Dropdowns -->
       <div class="filter-container">
+        <label for="technologyFilter">Filter by Technology:</label>
+        <select id="technologyFilter" onchange="filterTable()">
+          <option value="all">All</option>
+          {% assign technologies = site.data.projects | map: 'Technology' | uniq %}
+          {% for tech in technologies %}
+            <option value="{{ tech }}">{{ tech }}</option>
+          {% endfor %}
+        </select>
+        
         <label for="projectTypeFilter">Filter by Project Type:</label>
         <select id="projectTypeFilter" onchange="filterTable()">
           <option value="all">All</option>
@@ -63,19 +72,23 @@
 
   <script>
     function filterTable() {
-      var filter = document.getElementById('projectTypeFilter').value;
+      var techFilter = document.getElementById('technologyFilter').value;
+      var typeFilter = document.getElementById('projectTypeFilter').value;
       var table = document.getElementById('projectsTable');
       var tr = table.getElementsByTagName('tr');
 
       for (var i = 1; i < tr.length; i++) { // Start from 1 to skip the header row
-        var td = tr[i].getElementsByTagName('td')[2]; // Project Type column
-        if (td) {
-          var types = td.textContent || td.innerText;
+        var techTd = tr[i].getElementsByTagName('td')[1]; // Technology column
+        var typeTd = tr[i].getElementsByTagName('td')[2]; // Project Type column
+        if (techTd && typeTd) {
+          var tech = techTd.textContent || techTd.innerText;
+          var types = typeTd.textContent || typeTd.innerText;
           var typeArray = types.split(',').map(function(type) {
             return type.trim();
           });
 
-          if (filter === 'all' || typeArray.includes(filter)) {
+          if ((techFilter === 'all' || tech === techFilter) &&
+              (typeFilter === 'all' || typeArray.includes(typeFilter))) {
             tr[i].style.display = '';
           } else {
             tr[i].style.display = 'none';
