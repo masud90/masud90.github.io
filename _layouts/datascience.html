@@ -88,7 +88,7 @@
           });
 
           var techMatch = (techFilter === 'all' || tech === techFilter);
-          var typeMatch = (typeFilter === 'all' || typeArray.includes(typeFilter));
+          var typeMatch = (typeFilter === 'all' || typeArray.some(function(type) { return type === typeFilter; }));
 
           if (techMatch && typeMatch) {
             tr[i].style.display = '';
