@@ -16,20 +16,29 @@
     {% include header.html %}
     <div class="container">
       <h1>{{ page.title }}</h1>
-      <p style="color:#808080;"><small>
+      <p style="color:#808080;"><em><small>
         This section is currently under development, some links will continue to be updated/ added as they become available.
-    </small></p>
+    </small></em></p>
       <p>
         This page contains a list of sample projects built mostly using tutorial datasets and some real life projects that showcase my skills of using data science and machine learning tools. Primarily, the projects use Python, R, or Stata, and visualizations use tools like PowerBI, Tableau, Shiny, or Quarto/RevealJS.
     </p>    
       <!-- Filter Dropdown -->
       <div class="filter-container">
-        <label for="technologyFilter">Filter by Technology:</label>
-        <select id="technologyFilter" onchange="filterTable()">
+        <label for="projectTypeFilter">Filter by Project Type:</label>
+        <select id="projectTypeFilter" onchange="filterTable()">
           <option value="all">All</option>
-          {% assign technologies = site.data.projects | map: 'Technology' | uniq %}
-          {% for tech in technologies %}
-            <option value="{{ tech }}">{{ tech }}</option>
+          {% assign all_types = "" %}
+          {% for project in site.data.projects %}
+            {% assign types = project.ProjectType | split: ',' %}
+            {% for type in types %}
+              {% assign all_types = all_types | append: type | append: ',' %}
+            {% endfor %}
+          {% endfor %}
+          {% assign unique_types = all_types | split: ',' | uniq %}
+          {% for type in unique_types %}
+            {% if type != "" %}
+              <option value="{{ type | strip }}">{{ type | strip }}</option>
+            {% endif %}
           {% endfor %}
         </select>
       </div>
@@ -54,15 +63,19 @@
 
   <script>
     function filterTable() {
-      var filter = document.getElementById('technologyFilter').value;
+      var filter = document.getElementById('projectTypeFilter').value;
       var table = document.getElementById('projectsTable');
       var tr = table.getElementsByTagName('tr');
 
       for (var i = 1; i < tr.length; i++) { // Start from 1 to skip the header row
-        var td = tr[i].getElementsByTagName('td')[1]; // Technology column
+        var td = tr[i].getElementsByTagName('td')[2]; // Project Type column
         if (td) {
-          var tech = td.textContent || td.innerText;
-          if (filter === 'all' || tech === filter) {
+          var types = td.textContent || td.innerText;
+          var typeArray = types.split(',').map(function(type) {
+            return type.trim();
+          });
+
+          if (filter === 'all' || typeArray.includes(filter)) {
             tr[i].style.display = '';
           } else {
             tr[i].style.display = 'none';
