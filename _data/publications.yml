@@ -1,6 +1,10 @@
 featured:
+- {name: 'From Stateless to Citizens: the journey of the Shona community in Kenya',
+citation: 'Rahman, Masud; Okute, Samwel Ochieng; Fix, Jedediah Rooney (October 2024). "From Stateless to Citizens: the journey of the Shona community in Kenya (English)", Nairobi: UNHCR' , 
+url: 'https://data.unhcr.org/en/documents/details/111718', 
+category: 'Brief/ Paper'}
 - {name: 'PYRAMID_CHART: Stata module to generate a population pyramid chart',
-citation: 'Rahman, Masud (2024). "PYRAMID_CHART: Stata module to generate a population pyramid chart," Statistical Software Components S459350, Boston College Department of Economics.' , 
+citation: 'Rahman, Masud (2024). "PYRAMID_CHART: Stata module to generate a population pyramid chart", Statistical Software Components S459350, Boston College Department of Economics.' , 
 url: 'https://ideas.repec.org/c/boc/bocode/s459350.html', 
 category: 'Software'}
 - {name: 'Quarterly Digest on Forced Displacement: Host Communities and Refugees in the East and Horn of Africa and the Great Lakes',
@@ -25,8 +29,14 @@ url: 'https://data.unhcr.org/en/documents/details/93863',
 category: 'Report'}
 
 index:
+- {name: 'From Stateless to Citizens: the journey of the Shona community in Kenya',
+citation: 'Rahman, Masud; Okute, Samwel Ochieng; Fix, Jedediah Rooney (October 2024). "From Stateless to Citizens: the journey of the Shona community in Kenya (English)", Nairobi: UNHCR' , 
+url: 'https://data.unhcr.org/en/documents/details/111718', 
+category: 'Brief/ Paper', 
+image: '/assets/img/report_2024_2.png',
+summary: 'This policy brief examines the socioeconomic progress of the Shona community in Kenya since gaining citizenship in 2020-21. Previously stateless, the Shona faced barriers to formal employment, financial services, and social protection. Citizenship has enabled 86% of the community to obtain national IDs and significantly increased financial inclusion, with bank account ownership rising from 9% to 35%. Health insurance coverage has nearly tripled, and overall economic participation has improved. Despite these gains, the Shona community’s employment rates remain below pre-pandemic levels, particularly for women. The report provides policy recommendations to further support the Shona and other stateless communities globally, highlighting the transformative power of legal recognition.'}
 - {name: 'PYRAMID_CHART: Stata module to generate a population pyramid chart',
-citation: 'Rahman, Masud (2024). "PYRAMID_CHART: Stata module to generate a population pyramid chart," Statistical Software Components S459350, Boston College Department of Economics.' , 
+citation: 'Rahman, Masud (2024). "PYRAMID_CHART: Stata module to generate a population pyramid chart", Statistical Software Components S459350, Boston College Department of Economics.' , 
 url: 'https://ideas.repec.org/c/boc/bocode/s459350.html', 
 category: 'Software', 
 image: '/assets/img/software_2024_1.png',
