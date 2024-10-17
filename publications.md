@@ -1,4 +1,4 @@
 ---
 layout: publications
-title: "Recent works"
+title: "Publications"
 ---

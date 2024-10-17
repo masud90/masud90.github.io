@@ -11,22 +11,6 @@ category: 'Software'}
 citation: 'Fix, Jedediah; and Rahman, Masud (2024). "Host Communities and Refugees in the East and Horn of Africa and the Great Lakes"; World Bank – UNHCR Joint Data Center. Quarterly Digest on Forced Displacement, Ninth Issue. Washington, D.C.: World Bank Group. DOI: 10.47053/jdc.080524', 
 url: 'https://doi.org/10.47053/jdc.080524', 
 category: 'Brief/ Paper'}
-- {name: 'Coxs Bazar Panel Survey on Bhasan Char Baseline: Livelihoods on Bhasan Char',
-citation: 'Rahman, Masud; Hasegawa, Nodoka; Beltramo, Theresa (2023). "Livelihoods on Bhasan Char"; Briefs from Coxs Bazar Panel Survey on Bhasan Char Baseline - 2022, Second Issue. Dhaka: UN Refugee Agency (UNHCR)', 
-url: 'https://data2.unhcr.org/en/documents/details/102924', 
-category: 'Brief/ Paper'}
-- {name: 'Coxs Bazar Panel Survey on Bhasan Char Baseline: Study Background and Demographics',
-citation: 'Rahman, Masud; Hasegawa, Nodoka; Beltramo, Theresa (2023). "Study Background and Demographics"; Briefs from Coxs Bazar Panel Survey on Bhasan Char Baseline - 2022, First Issue. Dhaka: UN Refugee Agency (UNHCR) ', 
-url: 'https://data2.unhcr.org/en/documents/details/102923', 
-category: 'Brief/ Paper'}
-- {name: 'Coxs Bazar Panel Survey on Bhasan Char Baseline dataset',
-citation: 'UNHCR (2022). Bangladesh: Bhasan Car Panel Survey - 2022. DDI DOCUMENT ID: UNHCR_BGD_2022_cbps_anon_data_v2.1', 
-url: 'https://microdata.unhcr.org/index.php/catalog/1053', 
-category: 'Dataset'}
-- {name: 'The Impact of Financial Assistance through Volunteer Programmes in Coxs Bazar Refugee Camps',
-citation: 'Davis, C Austin; Rahman, Masud; Hasegawa, Nodoka; Cadoni, Paula; Beltramo, Theresa (2022). "The Impact of Financial Assistance through Volunteer Programmes in Coxs Bazar Refugee Camps"; Dhaka: UN Refugee Agency (UNHCR)', 
-url: 'https://data.unhcr.org/en/documents/details/93863', 
-category: 'Report'}
 
 index:
 - {name: 'From Stateless to Citizens: the journey of the Shona community in Kenya',
