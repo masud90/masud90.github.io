@@ -1,6 +1,6 @@
 featured:
 - {name: 'From Stateless to Citizens: the journey of the Shona community in Kenya',
-citation: 'Rahman, Masud; Okute, Samwel Ochieng; Fix, Jedediah Rooney (October 2024). "From Stateless to Citizens: the journey of the Shona community in Kenya (English)", Nairobi: UNHCR' , 
+citation: 'Rahman, Masud; Okute, Samwel Ochieng; Fix, Jedediah Rooney (October 2024). "From Stateless to Citizens: the journey of the Shona community in Kenya (English)", Nairobi: UNHCR, DOI: 10.13140/RG.2.2.24386.59847' , 
 url: 'https://data.unhcr.org/en/documents/details/111718', 
 category: 'Brief/ Paper'}
 - {name: 'PYRAMID_CHART: Stata module to generate a population pyramid chart',
@@ -14,7 +14,7 @@ category: 'Brief/ Paper'}
 
 index:
 - {name: 'From Stateless to Citizens: the journey of the Shona community in Kenya',
-citation: 'Rahman, Masud; Okute, Samwel Ochieng; Fix, Jedediah Rooney (October 2024). "From Stateless to Citizens: the journey of the Shona community in Kenya (English)", Nairobi: UNHCR' , 
+citation: 'Rahman, Masud; Okute, Samwel Ochieng; Fix, Jedediah Rooney (October 2024). "From Stateless to Citizens: the journey of the Shona community in Kenya (English)", Nairobi: UNHCR, DOI: 10.13140/RG.2.2.24386.59847' , 
 url: 'https://data.unhcr.org/en/documents/details/111718', 
 category: 'Brief/ Paper', 
 image: '/assets/img/report_2024_2.png',
