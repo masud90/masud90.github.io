@@ -1,7 +1,7 @@
 featured:
-- {name: 'From Stateless to Citizens: the journey of the Shona community in Kenya',
-citation: 'Rahman, Masud; Okute, Samwel Ochieng; Fix, Jedediah Rooney (October 2024). "From Stateless to Citizens: the journey of the Shona community in Kenya (English)", Nairobi: UNHCR, DOI: 10.13140/RG.2.2.24386.59847' , 
-url: 'https://data.unhcr.org/en/documents/details/111718', 
+- {name: 'The Transformative Power of Citizenship: Findings from the 2024 Socioeconomic Study of the Shona Community in Kenya',
+citation: 'Rahman, M., Fix, J., Weber, S., and Zikhali, P. (2024). The Transformative Power of Citizenship: Findings from the 2024 Socioeconomic Study of the Shona Community in Kenya. Nairobi: UNHCR. Available at https://doi.org/10.25740/yd512vv4297' , 
+url: 'https://doi.org/10.25740/yd512vv4297', 
 category: 'Brief/ Paper'}
 - {name: 'PYRAMID_CHART: Stata module to generate a population pyramid chart',
 citation: 'Rahman, Masud (2024). "PYRAMID_CHART: Stata module to generate a population pyramid chart", Statistical Software Components S459350, Boston College Department of Economics.' , 
@@ -13,6 +13,12 @@ url: 'https://doi.org/10.47053/jdc.080524',
 category: 'Brief/ Paper'}
 
 index:
+- {name: 'The Transformative Power of Citizenship: Findings from the 2024 Socioeconomic Study of the Shona Community in Kenya',
+citation: 'Rahman, M., Fix, J., Weber, S., and Zikhali, P. (2024). The Transformative Power of Citizenship: Findings from the 2024 Socioeconomic Study of the Shona Community in Kenya. Nairobi: UNHCR. Available at https://doi.org/10.25740/yd512vv4297' , 
+url: 'https://doi.org/10.25740/yd512vv4297', 
+category: 'Brief/ Paper',
+image: '/assets/img/report_2024_3.png',
+summary: 'Statelessness denies millions globally the right to nationality, limiting access to basic services and economic opportunities. In Kenya, the Shona community remained stateless until December 2020, when they were granted Kenyan citizenship. This report uses primary data from the 2024 Shona Socioeconomic Study of the Shona Community in Kenya to provide a descriptive multi-topic analysis of the socioeconomic and living conditions of the Shona community after obtaining citizenship. The socioeconomic conditions of the Shona are compared to their conditions before citizenship, using data from a 2019 survey of the same community.'}
 - {name: 'From Stateless to Citizens: the journey of the Shona community in Kenya',
 citation: 'Rahman, Masud; Okute, Samwel Ochieng; Fix, Jedediah Rooney (October 2024). "From Stateless to Citizens: the journey of the Shona community in Kenya (English)", Nairobi: UNHCR, DOI: 10.13140/RG.2.2.24386.59847' , 
 url: 'https://data.unhcr.org/en/documents/details/111718', 
