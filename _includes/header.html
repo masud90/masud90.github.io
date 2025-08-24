@@ -1,12 +1,20 @@
 <header class="site-header" role="banner">
-  <a class="site-title" href="{{ '/' | relative_url }}">Masud Rahman</a>
-  <nav class="site-nav" aria-label="Primary">
-    {% assign here = page.url | replace: '/index.html', '/' %}
-    <ul>
-      <li><a href="{{ '/' | relative_url }}" aria-current="{{ here == '/' | ternary: 'page', nil }}">Home</a></li>
-      <li><a href="{{ '/research' | relative_url }}" aria-current="{{ here == '/research' | ternary: 'page', nil }}">Research</a></li>
-      <li><a href="{{ '/open-source' | relative_url }}" aria-current="{{ here == '/open-source' | ternary: 'page', nil }}">Open-Source</a></li>
-    </ul>
-  </nav>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="container header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">Masud Rahman</a>
+
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+      <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+      <span class="sr-only">Toggle navigation</span>
+    </button>
+
+    <nav id="site-nav" class="site-nav" role="navigation" aria-label="Main">
+      {% assign here = page.url %}
+      <a href="{{ '/' | relative_url }}"
+         {% if here == '/' %}aria-current="page"{% endif %}>Home</a>
+      <a href="{{ '/research/' | relative_url }}"
+         {% if here == '/research/' %}aria-current="page"{% endif %}>Research</a>
+      <a href="{{ '/open-source/' | relative_url }}"
+         {% if here == '/open-source/' %}aria-current="page"{% endif %}>Open-Source</a>
+    </nav>
+  </div>
 </header>

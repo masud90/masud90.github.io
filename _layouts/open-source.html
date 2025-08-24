@@ -7,7 +7,7 @@ permalink: /open-source/
 {% assign rows = site.data.projects | default: empty %}
 {% assign meta = site.data.projects_meta | default: empty %}
 
-<section class="cards-grid" aria-label="Open-source projects">
+<section class="cards-list" aria-label="Open-source projects">
 {% if rows and rows.size > 0 %}
   {% assign rows = rows | sort: 'sort_weight' %}
 

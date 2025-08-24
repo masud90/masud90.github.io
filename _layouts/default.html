@@ -1,13 +1,24 @@
-<!doctype html>
+---
+layout: null
+---
+<!DOCTYPE html>
 <html lang="en">
   <head>
     {% include head.html %}
+    <title>{% if page.title %}{{ page.title }} · {% endif %}Masud Rahman</title>
   </head>
-  <body class="theme">
+  <body class="theme-default">
+    <a class="skip-link" href="#main">Skip to content</a>
+
     {% include header.html %}
-    <main id="main">
+
+    <main id="main" class="container" role="main" tabindex="-1">
+      {% unless page.url == "/" %}{% include breadcrumbs.html %}{% endunless %}
       {{ content }}
     </main>
+
     {% include footer.html %}
+
+    <script defer src="{{ '/assets/js/main.js' | relative_url }}"></script>
   </body>
 </html>

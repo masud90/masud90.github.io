@@ -9,7 +9,7 @@ permalink: /research/
   {% assign items = items | sort: 'sort_weight' %}
 {% endif %}
 
-<section class="cards-grid" aria-label="Research list">
+<section class="cards-list" aria-label="Research list">
 {% if items and items.size > 0 %}
   {% for paper in items %}
     {% assign ok = true %}
