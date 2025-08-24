@@ -17,8 +17,11 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    # Use a shared R library directory inside the workspace (no special contexts)
     env:
-      R_LIBS_USER: ${{ runner.temp }}/Library
+      R_LIBS_USER: ${{ github.workspace }}/.Rlib
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -26,18 +29,11 @@ jobs:
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
 
-      - name: Cache R packages
-        uses: actions/cache@v3
-        with:
-          path: ${{ env.R_LIBS_USER }}
-          key: ${{ runner.os }}-r-${{ hashFiles('.github/workflows/pages.yml')
-          restore-keys: |
-            ${{ runner.os }}-r-
-            
       - name: Install R packages
         run: |
           mkdir -p "${R_LIBS_USER}"
           Rscript -e 'lib <- Sys.getenv("R_LIBS_USER"); dir.create(lib, showWarnings=FALSE, recursive=TRUE); .libPaths(c(lib, .libPaths())); pkgs <- c("jsonlite","httr"); miss <- setdiff(pkgs, rownames(installed.packages(lib.loc=lib))); if (length(miss)) install.packages(miss, repos="https://cloud.r-project.org", lib=lib); for (p in pkgs) {suppressPackageStartupMessages(library(p, character.only=TRUE))}; print(.libPaths()); sessionInfo()'
+
       - name: Enrich project data (GitHub API)
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN_READ }}
