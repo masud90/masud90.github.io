@@ -1,14 +1,13 @@
+{% assign img = include.paper.image | default: '/assets/img/placeholders/paper.svg' %}
 <article class="card research">
-  {%- if include.paper.image -%}
-  <img src="{{ include.paper.image | relative_url }}"
+  <img src="{{ img | relative_url }}"
        alt="Cover for {{ include.paper.title }}"
-       loading="lazy" decoding="async">
-  {%- endif -%}
+       width="320" height="180" loading="lazy" decoding="async">
 
   <h3>{{ include.paper.title }}</h3>
 
   <p class="meta">
-    {{ include.paper.status | capitalize }}
+    {{ include.paper.status | replace: '_', ' ' | capitalize }}
     {%- if include.paper.status == 'published' and include.paper.publication_date -%}
       · {{ include.paper.publication_date }}{%- if include.paper.venue -%} · {{ include.paper.venue }}{%- endif -%}
     {%- endif -%}
@@ -24,11 +23,11 @@
 
   <p class="links">
     {%- if include.paper.full_text_url -%}
-      <a href="{{ include.paper.full_text_url }}">Full text</a>
+      <a href="{{ include.paper.full_text_url }}" rel="noopener">Full text</a>
     {%- endif -%}
     {%- if include.paper.code_url -%}
       {%- if include.paper.full_text_url -%} · {%- endif -%}
-      <a href="{{ include.paper.code_url }}">Code</a>
+      <a href="{{ include.paper.code_url }}" rel="noopener">Code</a>
     {%- endif -%}
   </p>
 </article>

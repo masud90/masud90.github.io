@@ -1,19 +1,33 @@
-{% assign meta = include.meta %}
+{% assign img = include.project.image | default: '/assets/img/placeholders/project.svg' %}
 <article class="card project">
-  {% if include.prj.image %}
-  <img src="{{ include.prj.image | relative_url }}" alt="Screenshot for {{ include.prj.title }}" loading="lazy" decoding="async">
-  {% endif %}
-  <h3><a href="{{ '/projects/' | append: include.prj.id | append: '/' | relative_url }}">{{ include.prj.title }}</a></h3>
+  <img src="{{ img | relative_url }}"
+       alt="Logo/preview for {{ include.project.title }}"
+       width="320" height="180" loading="lazy" decoding="async">
+
+  <h3><a href="{{ '/projects/' | append: include.project.id | append: '/' | relative_url }}">{{ include.project.title }}</a></h3>
+
   <p class="meta">
-    <a href="{{ include.prj.repo_url }}">GitHub</a>
-    {% if meta and meta.last_release_date %}
-      · Last release: {{ meta.last_release_date | date: "%Y-%m-%d" }}
-    {% elsif meta and meta.latest_commit_date %}
-      · Latest commit: {{ meta.latest_commit_date | date: "%Y-%m-%d" }}
-    {% else %}
-      · Release info: pending
-    {% endif %}
+    {%- if include.last_date and include.last_date != '' -%}
+      Last update: {{ include.last_date }}
+    {%- else -%}
+      Last update: unknown
+    {%- endif -%}
+    {%- if include.project.primary_language -%}
+      · {{ include.project.primary_language }}
+    {%- endif -%}
+    {%- if include.project.license -%}
+      · {{ include.project.license }}
+    {%- endif -%}
   </p>
-  <div class="desc">{{ include.prj.short_description | markdownify }}</div>
-  <p class="citation"><strong>Recommended citation:</strong> {{ include.prj.citation_recommended }}</p>
+
+  <div class="desc">
+    {{ include.project.short_description | markdownify }}
+  </div>
+
+  <p class="links">
+    <a href="{{ include.project.repo_url }}" rel="noopener">GitHub</a>
+    {%- if include.project.homepage -%}
+      · <a href="{{ include.project.homepage }}" rel="noopener">Homepage</a>
+    {%- endif -%}
+  </p>
 </article>
