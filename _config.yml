@@ -9,8 +9,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# GA4: set your Measurement ID later (e.g., G-XXXXXXX)
-google_analytics: ""
+# GA4: set your Measurement ID later
+google_analytics:
+  id: "G-Q7HK9L14NH"   # GA4 Measurement ID (we’ll keep the classic snippet for simplicity)
 
 permalink: /:title/
 

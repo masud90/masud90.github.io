@@ -1,37 +1,36 @@
 ---
 layout: page
+title: Research
+permalink: /research/
 ---
-{%- comment -%}
-Nil-safe: only sort if site.data.research exists. Liquid dislikes complex boolean
-expressions with parentheses, so we use nested ifs instead.
-{%- endcomment -%}
+
 {% assign items = site.data.research %}
 {% if items %}
   {% assign items = items | sort: 'sort_weight' %}
 {% endif %}
 
 <section class="cards-grid" aria-label="Research list">
-  {% if items and items.size > 0 %}
-    {% for paper in items %}
-      {% assign ok = true %}
-      {% if paper.title == nil or paper.title == '' %}{% assign ok = false %}{% endif %}
-      {% if paper.status != 'published' and paper.status != 'working_paper' %}{% assign ok = false %}{% endif %}
-      {% if paper.status == 'published' %}
-        {% if paper.publication_date == nil or paper.publication_date == '' %}
-          {% assign ok = false %}
-        {% endif %}
+{% if items and items.size > 0 %}
+  {% for paper in items %}
+    {% assign ok = true %}
+    {% if paper.title == nil or paper.title == '' %}{% assign ok = false %}{% endif %}
+    {% unless paper.status == 'published' or paper.status == 'working_paper' %}{% assign ok = false %}{% endunless %}
+    {% if paper.status == 'published' %}
+      {% if paper.publication_date == nil or paper.publication_date == '' %}
+        {% assign ok = false %}
       {% endif %}
+    {% endif %}
 
-      {% if ok %}
-        {% include card-research.html paper=paper %}
-      {% else %}
-        <article class="card research">
-          <h3>⚠️ Skipped invalid row</h3>
-          <p>Fix this entry in <code>_data/research.csv</code> (missing title/status/date?).</p>
-        </article>
-      {% endif %}
-    {% endfor %}
-  {% else %}
-    <p>No research items yet (is <code>_data/research.csv</code> present?).</p>
-  {% endif %}
+    {% if ok %}
+      {% include card-research.html paper=paper %}
+    {% else %}
+      <article class="card research">
+        <h3>⚠️ Skipped invalid row</h3>
+        <p>Fix this entry in <code>_data/research.csv</code>.</p>
+      </article>
+    {% endif %}
+  {% endfor %}
+{% else %}
+  <p>No research items yet (is <code>_data/research.csv</code> present?).</p>
+{% endif %}
 </section>
