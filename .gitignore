@@ -1,6 +1,17 @@
-*.gem
-.bundle
-.jekyll-cache
-.sass-cache
-_site
+# Jekyll build artifacts
+_site/
+.jekyll-cache/
+.sass-cache/
+.bundle/
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+
+# Ruby / dependency dirs (if ever used)
+vendor/
 Gemfile.lock
+
+# R / misc
+.Rhistory
+.Rproj.user/

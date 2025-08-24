@@ -1,0 +1,19 @@
+{% assign meta = include.meta %}
+<article class="card project">
+  {% if include.prj.image %}
+  <img src="{{ include.prj.image | relative_url }}" alt="Screenshot for {{ include.prj.title }}" loading="lazy" decoding="async">
+  {% endif %}
+  <h3><a href="{{ '/projects/' | append: include.prj.id | append: '/' | relative_url }}">{{ include.prj.title }}</a></h3>
+  <p class="meta">
+    <a href="{{ include.prj.repo_url }}">GitHub</a>
+    {% if meta and meta.last_release_date %}
+      · Last release: {{ meta.last_release_date | date: "%Y-%m-%d" }}
+    {% elsif meta and meta.latest_commit_date %}
+      · Latest commit: {{ meta.latest_commit_date | date: "%Y-%m-%d" }}
+    {% else %}
+      · Release info: pending
+    {% endif %}
+  </p>
+  <div class="desc">{{ include.prj.short_description | markdownify }}</div>
+  <p class="citation"><strong>Recommended citation:</strong> {{ include.prj.citation_recommended }}</p>
+</article>

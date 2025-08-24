@@ -1,9 +1,10 @@
-<footer class="pt-5 my-5 text-muted border-top">
-  <div class="row">
-    <div class="col-md-6 text-end social-media-icons">
-      {% for item in site.data.settings.social %}
-            <a href="{{ item.link }}" class="ms-3 fs-5"><i class="fab fa-{{ item.icon }}"></i></a>
-      {% endfor %}
-    </div>
-  </div>
+<footer class="site-footer">
+  <nav aria-label="Social">
+    <ul class="social">
+      <li><a href="https://github.com/masud90" rel="me">GitHub</a></li>
+      <li><a href="https://x.com/Masud_Rahman90" rel="me">X</a></li>
+      <li><a href="https://www.linkedin.com/in/masudrahman90" rel="me">LinkedIn</a></li>
+    </ul>
+  </nav>
+  <small>&copy; {{ site.time | date: "%Y" }} Masud Rahman</small>
 </footer>

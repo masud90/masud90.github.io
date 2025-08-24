@@ -1,0 +1,34 @@
+<article class="card research">
+  {%- if include.paper.image -%}
+  <img src="{{ include.paper.image | relative_url }}"
+       alt="Cover for {{ include.paper.title }}"
+       loading="lazy" decoding="async">
+  {%- endif -%}
+
+  <h3>{{ include.paper.title }}</h3>
+
+  <p class="meta">
+    {{ include.paper.status | capitalize }}
+    {%- if include.paper.status == 'published' and include.paper.publication_date -%}
+      · {{ include.paper.publication_date }}{%- if include.paper.venue -%} · {{ include.paper.venue }}{%- endif -%}
+    {%- endif -%}
+  </p>
+
+  <div class="desc">
+    {{ include.paper.short_description | markdownify }}
+  </div>
+
+  <p class="citation">
+    <strong>Recommended citation:</strong> {{ include.paper.citation_recommended }}
+  </p>
+
+  <p class="links">
+    {%- if include.paper.full_text_url -%}
+      <a href="{{ include.paper.full_text_url }}">Full text</a>
+    {%- endif -%}
+    {%- if include.paper.code_url -%}
+      {%- if include.paper.full_text_url -%} · {%- endif -%}
+      <a href="{{ include.paper.code_url }}">Code</a>
+    {%- endif -%}
+  </p>
+</article>
