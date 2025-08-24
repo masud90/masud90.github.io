@@ -1,22 +1,45 @@
 ---
 layout: page
+title: Open-Source
+permalink: /open-source/
 ---
-{% assign items = site.data.projects %}
-{% if items %}{% assign items = items | sort: 'sort_weight' %}{% endif %}
-{% assign meta = site.data.projects_meta %}
+
+{% assign rows = site.data.projects | default: empty %}
+{% assign meta = site.data.projects_meta | default: empty %}
 
 <section class="cards-grid" aria-label="Open-source projects">
-  {% if items and items.size > 0 %}
-    {% for prj in items %}
-      {% assign m = nil %}
-      {% if meta %}
-        {% for row in meta %}
-          {% if row.id == prj.id %}{% assign m = row %}{% break %}{% endif %}
-        {% endfor %}
-      {% endif %}
-      {% include card-project.html prj=prj meta=m %}
-    {% endfor %}
-  {% else %}
-    <p>No projects yet.</p>
-  {% endif %}
+{% if rows and rows.size > 0 %}
+  {% assign rows = rows | sort: 'sort_weight' %}
+
+  {% for p in rows %}
+    {% assign ok = true %}
+    {% if p.id == nil or p.title == nil or p.repo_url == nil %}{% assign ok = false %}{% endif %}
+
+    {%- comment -%} Find last date for this id in meta {%- endcomment -%}
+    {% assign last_date = '' %}
+    {% if meta %}
+      {% for m in meta %}
+        {% if m.id == p.id %}
+          {% if m.last_release_date %}
+            {% assign last_date = m.last_release_date %}
+          {% elsif m.latest_commit_date %}
+            {% assign last_date = m.latest_commit_date %}
+          {% endif %}
+          {% break %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    {% if ok %}
+      {% include card-project.html project=p last_date=last_date %}
+    {% else %}
+      <article class="card project warn">
+        <h3>Skipped invalid row</h3>
+        <p>Fix the entry in <code>_data/projects.csv</code>.</p>
+      </article>
+    {% endif %}
+  {% endfor %}
+{% else %}
+  <p>No projects yet. Add rows to <code>_data/projects.csv</code>.</p>
+{% endif %}
 </section>
