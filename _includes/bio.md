@@ -1,0 +1,1 @@
+Masud Rahman is a data scientist focused on applied econometrics, open-source tooling, and reproducible analytics.

@@ -1,32 +1,10 @@
 ---
 layout: default
 ---
-
-<style>
-  .custom-img {
-    width: 100%;
-  }
-  
-  @media (min-width: 768px) {
-    .custom-img {
-      width: 40%;
-      float: right;
-    }
-  }
-</style>
-
-<div class="row g-5 mb-5">
-  <div class="col-md-6 order-md-1 order-2">
-    <h3 class="fw-bold">About me</h3>
-    {{ content }}
+<section class="about one-col">
+  <img class="headshot" src="{{ '/assets/img/headshot.jpg' | relative_url }}" alt="Portrait of Masud Rahman" width="200" height="200" loading="lazy" decoding="async">
+  <div class="bio">
+    {% capture bio %}{% include bio.md %}{% endcapture %}
+    {{ bio | markdownify }}
   </div>
-  <div class="col-md-6 order-md-2 order-1">
-    <img src="{{ site.github.url }}/assets/img/Masud.jpeg" alt="Masud Rahman" class="custom-img">
-  </div>
-</div>
-
-{% include publications.html %}
-
-
-{% include blogs.html %}
-
+</section>

@@ -1,0 +1,22 @@
+---
+layout: page
+---
+{% assign items = site.data.projects %}
+{% if items %}{% assign items = items | sort: 'sort_weight' %}{% endif %}
+{% assign meta = site.data.projects_meta %}
+
+<section class="cards-grid" aria-label="Open-source projects">
+  {% if items and items.size > 0 %}
+    {% for prj in items %}
+      {% assign m = nil %}
+      {% if meta %}
+        {% for row in meta %}
+          {% if row.id == prj.id %}{% assign m = row %}{% break %}{% endif %}
+        {% endfor %}
+      {% endif %}
+      {% include card-project.html prj=prj meta=m %}
+    {% endfor %}
+  {% else %}
+    <p>No projects yet.</p>
+  {% endif %}
+</section>

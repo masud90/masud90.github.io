@@ -1,4 +1,30 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "Masud Rahman" # the name of your site, e.g. ACME Corp.
-description: "Portfolio"
+title: "Masud Rahman"
+description: "Research and analytics portfolio"
+url: "https://masud90.github.io"
+baseurl: ""
+
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# GA4: set your Measurement ID later (e.g., G-XXXXXXX)
+google_analytics: ""
+
+permalink: /:title/
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+sass:
+  style: compressed
+
+exclude:
+  - old_site/
+  - scripts/
+  - node_modules/
+  - .github/
+  - README.md
