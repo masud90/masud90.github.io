@@ -17,6 +17,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      R_LIBS_USER: ${{ runner.temp }}/Library
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -28,13 +30,14 @@ jobs:
         uses: actions/cache@v3
         with:
           path: ${{ env.R_LIBS_USER }}
-          key: ${{ runner.os }}-r-${{ hashFiles('**/DESCRIPTION') }}
+          key: ${{ runner.os }}-r-${{ hashFiles('.github/workflows/pages.yml')
           restore-keys: |
             ${{ runner.os }}-r-
             
       - name: Install R packages
         run: |
-          Rscript -e 'packages <- c("jsonlite","httr"); to_install <- setdiff(packages, rownames(installed.packages())); if(length(to_install)) install.packages(to_install, repos="https://cloud.r-project.org")'
+          mkdir -p "${R_LIBS_USER}"
+          Rscript -e 'lib <- Sys.getenv("R_LIBS_USER"); dir.create(lib, showWarnings=FALSE, recursive=TRUE); .libPaths(c(lib, .libPaths())); pkgs <- c("jsonlite","httr"); miss <- setdiff(pkgs, rownames(installed.packages(lib.loc=lib))); if (length(miss)) install.packages(miss, repos="https://cloud.r-project.org", lib=lib); for (p in pkgs) {suppressPackageStartupMessages(library(p, character.only=TRUE))}; print(.libPaths()); sessionInfo()'
       - name: Enrich project data (GitHub API)
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN_READ }}
